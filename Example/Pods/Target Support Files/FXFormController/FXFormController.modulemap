@@ -1,0 +1,6 @@
+framework module FXFormController {
+  umbrella header "FXFormController-umbrella.h"
+
+  export *
+  module * { export * }
+}

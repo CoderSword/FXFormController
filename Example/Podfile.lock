@@ -1,0 +1,59 @@
+PODS:
+  - BRPickerView (2.6.3):
+    - BRPickerView/AddressPickerView (= 2.6.3)
+    - BRPickerView/Base (= 2.6.3)
+    - BRPickerView/DatePickerView (= 2.6.3)
+    - BRPickerView/StringPickerView (= 2.6.3)
+  - BRPickerView/AddressPickerView (2.6.3):
+    - BRPickerView/Base
+  - BRPickerView/Base (2.6.3)
+  - BRPickerView/DatePickerView (2.6.3):
+    - BRPickerView/Base
+  - BRPickerView/StringPickerView (2.6.3):
+    - BRPickerView/Base
+  - FXFormController (0.1.0):
+    - BRPickerView
+    - GKPhotoBrowser
+    - Masonry
+    - MJExtension
+    - SDWebImage
+    - TZImagePickerController
+  - GKPhotoBrowser (2.0.8):
+    - GKPhotoBrowser/SD (= 2.0.8)
+  - GKPhotoBrowser/SD (2.0.8):
+    - SDWebImage (~> 5.0)
+  - Masonry (1.1.0)
+  - MJExtension (3.2.2)
+  - SDWebImage (5.8.3):
+    - SDWebImage/Core (= 5.8.3)
+  - SDWebImage/Core (5.8.3)
+  - TZImagePickerController (3.3.2)
+
+DEPENDENCIES:
+  - FXFormController (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - BRPickerView
+    - GKPhotoBrowser
+    - Masonry
+    - MJExtension
+    - SDWebImage
+    - TZImagePickerController
+
+EXTERNAL SOURCES:
+  FXFormController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BRPickerView: 67ce855d07ff61771b586fea719053612bfeb1d6
+  FXFormController: f43bde88bb71df4c3abd4b6d73f93a2ee24fe5db
+  GKPhotoBrowser: 525d74418d9f740d577ad1804bd1f3e1a901691b
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: d9b9c74cbdeb724c1e9ecbb157b318276e62e876
+  SDWebImage: 112503ec94a5a2a41869503844a15e8d8f1ead5c
+  TZImagePickerController: 36ca728ec681228918aa82e993aaab1962281b72
+
+PODFILE CHECKSUM: e0940fc4db2553824a9a87da8c6af88597b0f2c1
+
+COCOAPODS: 1.9.1

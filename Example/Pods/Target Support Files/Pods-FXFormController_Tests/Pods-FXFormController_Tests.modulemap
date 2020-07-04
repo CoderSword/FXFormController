@@ -1,0 +1,6 @@
+framework module Pods_FXFormController_Tests {
+  umbrella header "Pods-FXFormController_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
