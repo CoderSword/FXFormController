@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'FXFormController_Example' do
+  pod 'FXFormController', :path => '../'
+
+  target 'FXFormController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
