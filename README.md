@@ -22,7 +22,7 @@ pod 'FXFormController'
 
 ## Author
 
-liutian6867@163.com, liutian6867@163.com
+QQ:928997310
 
 ## License
 
