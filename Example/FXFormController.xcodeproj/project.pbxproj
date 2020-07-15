@@ -23,7 +23,8 @@
 		6292E9CBF1573777B55947A7 /* Pods_FXFormController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15779788F752677B6DDFE3D /* Pods_FXFormController_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		856049FCCBE8122D7BBCDC01 /* Pods_FXFormController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2C2DE9C5634A11EBE5C433 /* Pods_FXFormController_Tests.framework */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		C7808EE024BEEC690088896D /* Report.json in Resources */ = {isa = PBXBuildFile; fileRef = C7808EDF24BEEC690088896D /* Report.json */; };
+		C7808EE224BEEC700088896D /* Report1.json in Resources */ = {isa = PBXBuildFile; fileRef = C7808EE124BEEC700088896D /* Report1.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,8 +64,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		737ABFAC23441D582E26BD1F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		80F2A3F3530B2C4C14440468 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF6C9430860C1E377C4F8D17 /* FXFormController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FXFormController.podspec; path = ../FXFormController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C7808EDF24BEEC690088896D /* Report.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Report.json; sourceTree = "<group>"; };
+		C7808EE124BEEC700088896D /* Report1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Report1.json; sourceTree = "<group>"; };
 		E15779788F752677B6DDFE3D /* Pods_FXFormController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FXFormController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F88950044856831690B4B605 /* Pods-FXFormController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FXFormController_Example.release.xcconfig"; path = "Target Support Files/Pods-FXFormController_Example/Pods-FXFormController_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -134,9 +136,10 @@
 			children = (
 				6003F59C195388D20070C39A /* FXAppDelegate.h */,
 				6003F59D195388D20070C39A /* FXAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* FXViewController.h */,
 				6003F5A6195388D20070C39A /* FXViewController.m */,
+				C7808EDF24BEEC690088896D /* Report.json */,
+				C7808EE124BEEC700088896D /* Report1.json */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -247,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "liutian6867@163.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 4V5KFRWL87;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -277,10 +283,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				C7808EE224BEEC700088896D /* Report1.json in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				C7808EE024BEEC690088896D /* Report.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,11 +513,12 @@
 			baseConfigurationReference = 2A203023959F620DBFAE02AE /* Pods-FXFormController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4V5KFRWL87;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FXFormController/FXFormController-Prefix.pch";
 				INFOPLIST_FILE = "FXFormController/FXFormController-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.csc.InvasiveSpecies.cn.TestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -522,11 +530,12 @@
 			baseConfigurationReference = F88950044856831690B4B605 /* Pods-FXFormController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4V5KFRWL87;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FXFormController/FXFormController-Prefix.pch";
 				INFOPLIST_FILE = "FXFormController/FXFormController-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.csc.InvasiveSpecies.cn.TestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
